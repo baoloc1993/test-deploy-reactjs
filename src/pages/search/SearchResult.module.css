@@ -1,0 +1,26 @@
+.search-result {
+    margin: 20px;
+    color: white;
+  }
+  
+  .search-result-title {
+    margin-bottom: 20px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .movie-card {
+    padding: 10px;
+    display: inline;
+  }
+  
+  .movie-card img {
+    height: 500px;
+    width: auto;
+    max-width: 300px;
+    object-fit: cover;
+  }
+  

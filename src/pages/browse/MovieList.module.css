@@ -1,0 +1,54 @@
+
+
+.movie-card {
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.movie-card img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
+.movie-card-horizon{
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+.movie-card-horizon img {
+  height: 150px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card-horizon:hover {
+  transform: scale(1.05);
+}
+
+
+.movie-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 25px;
+  color: white;
+}
+.movie-container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+.movie-container-horizon {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding: 20px 0;
+}

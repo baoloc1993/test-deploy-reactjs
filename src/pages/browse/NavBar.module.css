@@ -1,0 +1,27 @@
+.nav-bar {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header {
+  font-size: 20px;
+  color: red;
+  margin-right: auto;
+}
+
+.search-icon {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: auto;
+}
